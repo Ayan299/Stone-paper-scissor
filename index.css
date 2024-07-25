@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(69, 69, 189);
+}
+
+h1{
+    background-color: rgb(6, 17, 53);
+    color: rgb(241, 241, 205);
+    font-size: xx-large;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.options{
+    display: flex;
+    font-size: 50px;
+    margin-top: 10rem;
+    gap: 2rem;
+    justify-content: center;
+}
+.option{
+    display: inline-block;
+    background-color: rgb(6, 17, 53);
+    border-radius: 50%;
+}
+.option:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+p{
+    font-size: 75px;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 6rem;
+    gap: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#msg{
+    color: rgb(241, 241, 205);
+    background-color:  rgb(6, 17, 53);
+    font-size: 2rem;
+    margin-top: 6rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+ 
+ .result {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%; /* ensure it takes full height */
+    cursor: pointer;
+    
+}
